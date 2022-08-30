@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <meta charset="UTF-8"/>
+    <title>Curso de PHP - CursoemVideo.com</title>
+</head>
+<body>
+<div>
+    
+    <form method="get" action="exercicio01.php">
+        <label for="numb">Digite um Número: </label> 
+        <input type="number" placeholder="0" name="numb" id="numb" min="01"/>
+            
+            <fieldset><legend>Operações</legend>
+                <input type="radio" name="oper" value="1" id="doblo" checked/>
+                <label for="doblo">Doblo</label><br>
+                <input type="radio" name="oper" value="2" id="cubo"/>
+                <label for="cubo">Cubo</label><br>
+                <input type="radio" name="oper" value="3" id="raiz"/>
+                <label for="raiz">Raiz Quadrada</label><br>
+                <input type="radio" name="oper" value="4" id="elevado"/>
+                <label for="elevado">Elevado ao Quadrado</label>
+            </fieldset>
+        
+        <input class="botao" type="submit" value="Calcular"/>
+        
+    </form>
+
+</div>
+</body>
+</html>
+ 
